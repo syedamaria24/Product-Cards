@@ -1,0 +1,66 @@
+.App {
+  background-color: #f7e2bf;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: white;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-details h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+
+.product-details p {
+  font-size: 14px;
+  color: #555;
+}
+
+.product-details span {
+  font-weight: bold;
+  color: #e67e22;
+  font-size: 16px;
+}
+
+.product-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #165c8b;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #2980b9;
+}
